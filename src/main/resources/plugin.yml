@@ -1,0 +1,8 @@
+main: io.github.spikey84.spikeyskywarscore.Main
+version: 1
+name: SpikeySkywarsCore
+api-version: 1.13
+commands:
+  teleport:
+    description: teleports to test world.
+    usage: /teleport
