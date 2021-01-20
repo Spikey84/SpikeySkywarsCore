@@ -52,11 +52,11 @@ public class Main extends JavaPlugin {
             ex.printStackTrace();
         }
 
-        WorldCreator wC = new WorldCreator("test");
-        wC = wC.copy(Bukkit.getWorld("preset"));
+        /*WorldCreator wC = new WorldCreator("test");
+        wC = wC.copy(Bukkit.getWorld("preset"));*/
 
-        //Bukkit.getServer().createWorld(new WorldCreator(world));
-        Bukkit.getServer().createWorld(wC);
+        Bukkit.getServer().createWorld(new WorldCreator(world));
+        //Bukkit.getServer().createWorld(wC);
     }
 
     public void delete(String world) {
